@@ -20,9 +20,6 @@ exports.createAccount = async (req, res) => {
     try {
         let account = await tronWeb.createAccount(); //Create Account
         let isValid = tronWeb.isAddress(account.address.hex); //Validate account
-        const a = await tronWeb.trx.getTokenFromID("PizzaPatelTestToken");
-        console.log(a.id);
-
 
         if (isValid) {
             return res.status(200).json({account,a});
