@@ -14,7 +14,7 @@
     "morgan": "~1.9.0",
     "nodemon": "^1.18.9",
     "npm": "^6.5.0",
-    "sequelize": "^4.42.0",
+    "sequelize": "^5.15.1",
     "tronweb": "^2.1.25"
   }
 }
